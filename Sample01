@@ -2,7 +2,6 @@ This is a very sample project practice text
 Never mind me guys for my words
 Main added 3rd line
 New line added
-<<<<<<< Updated upstream
 Manager added a line from central repo...
 Master added this line
 undo
@@ -17,8 +16,6 @@ the Stash changes
 the Stash changes
 the Stash changes
 the Stash changes
-<<<<<<< HEAD
-=======
 Catburryyy
 Catburryyy
 Catburryyy
@@ -33,6 +30,3 @@ Catburryyy
 Catburryyy
 Catburryyy
 Catburryyy
->>>>>>> Stashed changes
-=======
->>>>>>> 56e750927e5b3da11cbc395d2471e6575ec19e91
