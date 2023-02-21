@@ -1,0 +1,61 @@
+This is a demo file for practicing got stash
+Thank you
+
+
+
+The shell is the interface between the user and the operating system. It acts as a keyboard
+interpreter, taking the keyboard input from the user and delivering it to the operating system. You
+can think of the shell as being the part of the operating system that allows you to interact with the
+kernel. The shell is the program that executes Linux or UNIX commands.
+There are several shells available for use in the Linux and UNIX. The one most commonly used in
+Linux is the bash shell (Bourne Again Shell). Other shells include sh (Bourne Shell), csh (CShell),
+tcsh, csh, and ksh (Korn Shell).
+You can change the shell by typing the shell‟s name at a command prompt.
+For the purpose of this document, we‟ll focus on the bash shell.
+The shell is not only a command interpreter, it is also a scripting language. Experienced Linux
+administrators often write scripts to automate frequently conducted system tasks.
+Linux, like all multi-user operating systems, has an administrator account which is used for system
+configurations and operations. In Linux/UNIX, the administrator account is called “root”
+(equivalent to “admin”, “administrator”, or “supervisor” in other operating systems). “root” is often
+referred to as the “superuser” because of the account‟s unrestricted access to every area of the
+system and every aspect of the system‟s configuration.
+When logged on as root using the bash shell, the prompt is a pound sign (#). When logged on as a
+regular user using the bash shell, the prompt is a dollar sign ($).
+Shell commands in the Linux/UNIX world are usually case sensitive.
+You can see your default shell with this command:
+#echo $SHELL
+Linux Profiles
+There are two types of Linux profiles: system-wide and user-specific. System-wide configurations
+affect all users, while user-specific configurations affect only a single user. Normally, you must be
+root to change system-wide configurations.
+User-Specific Profiles
+User-specific profile settings are found in the user‟s home directory (/home/donc), but they‟re
+hidden by prepending a “.” to the filename. Examples of profile files include:
+ .bashrc
+ .bash_profile
+ .bash_history
+There are many others. You can view the hidden files in any directory by using “ls -a”.
+System-Wide Configurations
+System-wide configuration settings are almost entirely found in /etc. This is where you find files for
+configuring Apache, BIND DNS, and nearly any other aspect of Linux. For example, in Debian
+Linux, if you want to modify settings of your Apache web server, you would probably modify
+/etc/apache2/apache2.conf. If you are working with a Red Hat product, the file most likely is
+/etc/httpd/conf/httpd.conf. (The reason for using tentative language is because everything is
+configurable in Linux and the person who built your Linux system might have chosen to place the
+configuration files elsewhere.)
+Administration Tools and Techniques
+Working in Terminal
+Most Linux systems configured as servers are managed in a command-line interface (CLI) and many
+Linux power-users prefer to manager even their desktop system in the CLI. Although the graphical
+user interface (GUI) tools available for use in many Linux distros have improved considerably over
+past versions, the CLI continues to provide the greatest power and flexibility for configuring and
+managing a Linux system. The other benefit to working in a CLI is that each Linux distro is much
+more similar in the CLI than in the GUI. For the purpose of this workshop, you will do most of your
+configurations in the CLI, thus allowing you to make smoother and simpler transitions from Debian
+to other distros such as SuSE, Ubuntu, RedHat, Slackware, or even traditional UNIX systems.
+soundthinking Point: Desktop Environments
+The default desktop environment in CentOS 5.x, Debian 4.0r5, and many other Linux distros is
+Gnome. The desktop environment is what provides the buttons, backgrounds, effects, and
+applications. Desktop environments will be covered later in the workshop, but for now understand
+that different desktop environments may have slightly different to significantly different menu
+locations than those described here.
